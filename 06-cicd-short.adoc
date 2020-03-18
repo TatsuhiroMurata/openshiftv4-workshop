@@ -20,11 +20,11 @@ IMPORTANT: Please replace *Username* with your username
 - Click onto `Project` on the top
 - Click `Create Project`
 
-image::dev-project.png[image]
+image::images/dev-project.png[image]
 
 - Enter *pipeline-Username* as name of the project. The display name and description is optional.
 
-image::create-project.png[image]
+image::images/create-project.png[image]
 
 - Alternatively, you can run this command below via CLI.
 
@@ -50,12 +50,12 @@ Login successful.
 - Navigate to `+Add`
 - Click on `From Catalog`
 
-image::from-catalog.png[image]
+image::images/from-catalog.png[image]
 
 - Check the `checkbox` next to `Template`
 - Enter `Jenkins` in the `Filter by keyword`
 
-image::pick-templates.png[image]
+image::images/pick-templates.png[image]
 
 - Click `Jenkins (Ephemeral)`
 - Click `Instantiate Template`
@@ -65,20 +65,20 @@ image::pick-templates.png[image]
 - Wait for the solid blue ring shows on the icon
 - Click onto the route link to go to Jenkins Console
 
-image::route-link.png[image]
+image::images/route-link.png[image]
 
 - Click `Advanced`
 - Click the link where `Proceed to jenkins-...`
 - Click `Log in with OpenShift`
 
-image::jenkins-login.png[image]
+image::images/jenkins-login.png[image]
 
 - Click `htpasswd`
 - Login using your user name
 - Click `Allow selected permissions`
 - You now login the Jenkins console
 
-image::jenkins.png[image]
+image::images/jenkins.png[image]
 
 === Pipeline setup
 
@@ -109,25 +109,25 @@ NOTE: *pipeline-Username* will be replaced to your project name
 - Select `Start Build`
 - Build starts as show below
 
-image::jenkins-viewlog.png[image]
+image::images/jenkins-viewlog.png[image]
 
 - Click `View Logs`
 - Click `Open Blue Ocean` from the Jenkins Console
 
-image::jenkins-build.png[image]
+image::images/jenkins-build.png[image]
 
 - Blue Ocean console here (may take a minute to show up):
 
-image::blue-ocean.png[image]
+image::images/blue-ocean.png[image]
 
 - Go back to OpenShift web console
 
-image::pipeline-build.png[image]
+image::images/pipeline-build.png[image]
 
 - When Pipleline build is completed, navigate `Network` --> `Route`
 - Click onto the link under `LOCATION` for `nodejs-mongodb-example`
 
-image::pipeline-result.png[image]
+image::images/pipeline-result.png[image]
 
 Congratulations!! In this lab, you have learnt how to set up and run
 your own CI/CD pipeline on OpenShift.
