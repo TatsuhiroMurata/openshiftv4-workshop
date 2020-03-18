@@ -14,23 +14,23 @@ IMPORTANT: Please replace *Username* with your username
 - Click onto `Project` on the top
 - Click `Create Project`
 
-image::dev-project.png[image]
+image::images/dev-project.png[image]
 
 - Enter *pets-Username* as name of the project. The display name and description is optional.
 
-image::create-project.png[image]
+image::images/create-project.png[image]
 
 === Developer Persona
 
 - Click `+Add` on the left menu
 - Click onto `From Catalog`
 
-image::from-catalog.png[image]
+image::images/from-catalog.png[image]
 
 - Enter `OpenJDK` in the `Filter by keyword`
 - Click `OpenJDK`
 
-image::openjdk.png[image]
+image::images/openjdk.png[image]
 
 - Click `Instantiate Template`
 - Enter the following:
@@ -39,7 +39,7 @@ image::openjdk.png[image]
   * Git Repository URL: https://github.com/spring-projects/spring-petclinic.git
   * Context Directory: [leave it as empty]
 
-image::deploy-java.png[image]
+image::images/deploy-java.png[image]
 
 - Click `Create`
 - Navigate to `Builds`
@@ -71,11 +71,11 @@ Push successful
 - Navigate to `Topology`
 - Click onto route link from the petinic icon
 
-image::route-link.png[image]
+image::images/route-link.png[image]
 
 - Application is shown as this
 
-image::javaapp.png[image]
+image::images/javaapp.png[image]
 
 Congratulations!! You are now running a Java application on
 OpenShift.
