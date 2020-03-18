@@ -13,18 +13,18 @@ IMPORTANT: Please replace *Username* with your username
 - Click onto `Project` on the top
 - Click `Create Project`
 
-image::dev-project.png[image]
+image::images/dev-project.png[image]
 
 - Enter *mydotnetapp-Username* as name of the project. The display name and description is optional.
 
-image::create-project.png[image]
+image::images/create-project.png[image]
 
 === Developer Persona
 
 - Click `+Add` on the left menu
 - Click onto `From Catalog`
 
-image::from-catalog.png[image]
+image::images/from-catalog.png[image]
 
 - Enter `.Net` in the `Filter by keyword`
 - Click `.Net Core`
@@ -32,15 +32,15 @@ image::from-catalog.png[image]
 - Click `Try Sample` under Git Repo URL
 - Click `Create`
 
-image::dotnetapp.png[image]
+image::images/dotnetapp.png[image]
 
 - From `Topology`, you see
 
-image::dotnet.png[image]
+image::images/dotnet.png[image]
 
 - Click on the build icon to see the build log
 
-image::buildicon.png[image]
+image::images/buildicon.png[image]
 
 
 ```
@@ -61,8 +61,8 @@ Push successful
 - Navigate back to `Topology`
 - Click on to route link from the icon
 
-image::dotnet-complete.png[image]
+image::images/dotnet-complete.png[image]
 
 - You now see they .Net core application on OpenShift!
 
-image::sample-dotnet.png[image]
+image::images/sample-dotnet.png[image]
